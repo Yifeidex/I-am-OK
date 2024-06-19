@@ -1,0 +1,83 @@
+/* style.css */
+
+/* 基本样式 */
+body {
+  margin: 0;
+  background-color: white; /* 设定整个页面的背景为白色 */
+  color: black; /* 设定默认文字颜色为黑色 */
+}
+
+h1, p {
+  font-family: 'Lato', sans-serif; /* 保证字体统一 */
+}
+
+.gjs-custom-editor {
+  background-color: white; /* 白色背景 */
+  color: black; /* 黑色文字 */
+}
+
+.gjs-custom-editor-canvas {
+  background-color: #f5f5f5; /* 灰色背景 */
+}
+
+.icon, .fa {
+  color: #707070; /* 较深的灰色 */
+}
+
+/* 导航栏设置为更深的灰色 */
+.bg-dark-gray {
+  background-color: #404040; /* 更深的灰色背景 */
+}
+
+/* 顶部导航栏设置 */
+.topbar {
+  background-color: #808080; /* 中灰色背景 */
+  color: white; /* 文本颜色改为白色 */
+  padding: 10px 20px; /* 根据需要调整内边距 */
+  display: flex;
+  align-items: center; /* 垂直居中内容 */
+  justify-content: space-between; /* 内容平均分布 */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 添加轻微阴影增加立体感 */
+}
+
+.topbar a {
+  color: white; /* 设置链接颜色为白色 */
+  text-decoration: none; /* 去掉下划线 */
+  margin: 0 10px; /* 适当间距 */
+}
+
+/* 预览模式下隐藏编辑器的控制面板和工具栏 */
+.gjs-preview .gjs-pn-panels,
+.gjs-preview .gjs-pn-views,
+.gjs-preview .gjs-pn-options,
+.gjs-preview .gjs-pn-buttons {
+  display: none !important; /* 隐藏所有面板 */
+}
+
+/* 预览模式下调整Canvas宽度 */
+.gjs-preview .gjs-cv-canvas {
+  width: 100% !important;
+  height: 100% !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 9; /* 确保canvas在最前 */
+}
+
+/* 预览模式下的编辑器背景 */
+.gjs-preview .gjs-editor {
+  background-color: white !important; /* 设置背景色为白色 */
+}
+
+/* style.css */
+body.preview-mode {
+  pointer-events: none;
+  user-select: none;
+}
+
+.preview-mode .gjs-pn-views-container,
+.preview-mode .gjs-top {
+  display: none !important;
+}

@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-manrope: Manrope;
+  --font-lexend: Lexend;
+
+  /* font sizes */
+  --font-size-smi: 13px;
+  --font-size-7xs: 6px;
+  --font-size-5xl: 24px;
+  --font-size-lgi: 19px;
+  --font-size-13xl: 32px;
+  --font-size-7xl: 26px;
+  --font-size-12xl: 31px;
+  --font-size-6xl: 25px;
+  --font-size-sm: 14px;
+  --font-size-lg: 18px;
+  --font-size-xs: 12px;
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
+  --font-size-mid: 17px;
+  --font-size-2xl: 21px;
+  --font-size-3xl: 22px;
+  --font-size-4xl: 23px;
+
+  /* Colors */
+  --color-gray-100: #1e2128;
+  --color-gray-200: #1a1a1a;
+  --color-gray-300: #171a1f;
+  --color-gray-400: rgba(0, 0, 0, 0);
+  --color-white: #fff;
+  --color-silver: #bdc1ca;
+  --color-black: #000;
+  --color-lightslategray: #9095a1;
+  --color-dimgray: #4d4d4d;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-21xl: 40px;
+  --gap-6xl: 25px;
+  --gap-mid: 17px;
+  --gap-9xs: 4px;
+  --gap-8xl: 27px;
+  --gap-mini: 15px;
+  --gap-4xl: 23px;
+  --gap-5xs: 8px;
+  --gap-base: 16px;
+  --gap-12xl: 31px;
+  --gap-7xs: 6px;
+  --gap-6xs: 7px;
+
+  /* Paddings */
+  --padding-2xs: 11px;
+  --padding-283xl: 302px;
+  --padding-53xl: 72px;
+  --padding-7xl: 26px;
+  --padding-7xs: 6px;
+  --padding-28xl: 47px;
+  --padding-5xl: 24px;
+  --padding-2xl: 21px;
+  --padding-3xl: 22px;
+  --padding-xs: 12px;
+  --padding-5xs: 8px;
+  --padding-10xs: 3px;
+  --padding-4xs: 9px;
+  --padding-35xl: 54px;
+  --padding-base: 16px;
+  --padding-xl: 20px;
+  --padding-base-5: 16.5px;
+  --padding-57xl: 76px;
+  --padding-lgi: 19px;
+  --padding-4xl: 23px;
+  --padding-27xl: 46px;
+  --padding-8xs: 5px;
+  --padding-12xs: 1px;
+  --padding-mini: 15px;
+  --padding-18xl: 37px;
+  --padding-9xl: 28px;
+  --padding-9xs: 4px;
+  --padding-33xl: 52px;
+  --padding-3xs: 10px;
+  --padding-11xl: 30px;
+  --padding-12xl: 31px;
+  --padding-11xs: 2px;
+  --padding-6xs: 7px;
+  --padding-13xl: 32px;
+  --padding-sm: 14px;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+  --br-5xs: 8px;
+  --br-10xs: 3px;
+  --br-lg: 18px;
+  --br-7xl: 26px;
+}

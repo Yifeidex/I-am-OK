@@ -1,0 +1,28 @@
+{
+  "name": "stackblitz-starters-em8glk",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@grapesjs/react": "^0.1.0",
+    "@mdi/js": "^7.2.96",
+    "@mdi/react": "^1.6.1",
+    "@mui/material": "^5.13.7",
+    "@types/backbone": "^1.4.15",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "grapesjs": "^0.21.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}
